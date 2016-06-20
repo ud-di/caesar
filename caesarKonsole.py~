@@ -53,5 +53,5 @@ for klartext in input_stream:
     klartextOhneLeerzeichen = deleteSpaces( klartext )
     print "Klartext ohne Leerzeichen: " + klartextOhneLeerzeichen
     geheimtext = caesarVerschluesselung( klartextOhneLeerzeichen )
-    print "Der fertige Geheimtext lautet:     " + geheimtext
+    print "Der Geheimtext lautet:     " + geheimtext
     #print "Der Klartext lautet:      " + klartext
